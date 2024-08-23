@@ -1,0 +1,64 @@
+# Docs
+
+trigger:
+  - '*'
+
+pr:
+  - '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+  - job: Python310
+    displayName: 'Run with Python 3.10'
+    steps:
+      - checkout: self
+      - task: UsePythonVersion@0
+        inputs:
+          versionSpec: '3.10'
+          addToPath: true
+
+      - script: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+        displayName: 'Install dependencies'
+
+      - script: |
+          cd doc/
+          mkdocs build
+          cp -r $(Build.SourcesDirectory)/doc $(Build.ArtifactStagingDirectory)/v310
+        displayName: 'Build documentation'
+        continueOnError: true
+      - task: PublishBuildArtifacts@1
+        inputs:
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+          ArtifactName: 'drop'
+          publishLocation: 'Container'
+
+  - job: Python311
+    displayName: 'Run with Python 3.11'
+    steps:
+      - checkout: self
+      - task: UsePythonVersion@0
+        inputs:
+          versionSpec: '3.11'
+          addToPath: true
+
+      - script: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+        displayName: 'Install dependencies'
+
+      - script: |
+          cd doc/
+          mkdocs build
+          cp -r $(Build.SourcesDirectory)/doc $(Build.ArtifactStagingDirectory)/v311
+        displayName: 'Build documentation'
+        continueOnError: true
+
+      - task: PublishBuildArtifacts@1
+        inputs:
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+          ArtifactName: 'drop'
+          publishLocation: 'Container'

@@ -1,0 +1,70 @@
+name,type,path,methods_count,duration,readable,manual_exec
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,1,8.941,Serviço X Sem Login,900
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,4,12.536,Serviço X Sem Login,900
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,1,6.26,Serviço X Sem Login,900
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,1,6.741,Serviço X Sem Login,900
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,4,54.48,Serviço X Sem Login,1200
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,1,6.313,Serviço X Sem Login,900
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_homepage,1,7.237,Serviço X Sem Login,900
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,4,13.075,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,4,11.757,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X,3,9.591,Serviço X Usuário X,1500
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X,2,7.642,Serviço X Usuário X,420
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,5,12.142,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,2,15.589,Serviço X p/ Usuário X c/ Email + Senha,480
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,1,7.423,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,4,13.732,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,2,13.589,Serviço X p/ Usuário X c/ Email + Senha,480
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,3,4.505,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,5,23.732,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,5,9.509,Serviço X p/ Usuário X c/ Email + Senha,480
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,6,7.3,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleLoginPasswordTestCase,WEB,test_web.test_system_a.test_usuario_x.test_service_X.test_service,4,12.732,Serviço X p/ Usuário X c/ Email + Senha,960
+ServiceExampleNotLoggedTestCase,WEB,test_web.test_system_a.test_service_term,2,5.538,Serviço X Sem Login,720
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,70,23.14,APISYSTEMA:MetodoServicoXFuncaoY,12780
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,75,26.194,APISYSTEMA:MetodoServicoXFuncaoY,13680
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,121,26.875,APISYSTEMA:MetodoServicoXFuncaoY,24660
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,154,30.879,APISYSTEMA:MetodoServicoXFuncaoY,33840
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,111,27.740,APISYSTEMB:MetodoServicoXFuncaoY,30960
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,135,20.678,APISYSTEMB:MetodoServicoXFuncaoY,24480
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,171,38.740,APISYSTEMB:MetodoServicoXFuncaoY,30960
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,55,7.535,APISYSTEMB:MetodoServicoXFuncaoY,12420
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,149,37.271,APISYSTEMB:MetodoServicoXFuncaoY,34200
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,106,20.989,APISYSTEMB:MetodoServicoXFuncaoY,19260
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,167,32.956,APISYSTEMA:MetodoServicoXFuncaoY,30240
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,107,21.186,APISYSTEMB:MetodoServicoXFuncaoY,19440
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,37,7.454,APISYSTEMB:MetodoServicoXFuncaoY,6840
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,92,18.243,APISYSTEMB:MetodoServicoXFuncaoY,16740
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,51,10.200,APISYSTEMB:MetodoServicoXFuncaoY,9360
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,163,32.171,APISYSTEMA:MetodoServicoXFuncaoY,29520
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,175,38.448,APISYSTEMA:MetodoServicoXFuncaoY,35280
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,64,10.985,APISYSTEMA:MetodoServicoXFuncaoY,10080
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,120,24.913,APISYSTEMA:MetodoServicoXFuncaoY,22860
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,133,33.740,APISYSTEMA:MetodoServicoXFuncaoY,30960
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,17,3.531,APISYSTEMB:MetodoServicoXFuncaoY,3240
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,96,30.798,APISYSTEMB:MetodoServicoXFuncaoY,28260
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,163,32.171,APISYSTEMA:MetodoServicoXFuncaoY,29520
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,152,30.013,APISYSTEMA:MetodoServicoXFuncaoY,27540
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_flow.test_service_X.test_service,7,4.988,APISYSTEMB:MetodoServicoXFuncaoY,1440
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,5,2.226,APISYSTEMB:MetodoServicoXFuncaoY,1080
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,6,4.043,APISYSTEMB:MetodoServicoXFuncaoY,1260
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,5,1.079,APISYSTEMB:MetodoServicoXFuncaoY,1080
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,8,1.64,APISYSTEMB:MetodoServicoXFuncaoY,1620
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,8,1.949,APISYSTEMB:MetodoServicoXFuncaoY,1620
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,35,7.25,APISYSTEMB:MetodoServicoXFuncaoY,6480
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,25,5.619,APISYSTEMB:MetodoServicoXFuncaoY,4680
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,1,0.0,Operações do Serviço X de APISYSTEMB,360
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,12,0.52,APISYSTEMB:MetodoServicoXFuncaoY,2340
+ServiceExampleAPISYSTEMBMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_b.test_service.test_MetodoServicoXFuncaoY,1,0.0,Operações do Serviço X de APISYSTEMB,360
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,7,8.544,APISYSTEMA:MetodoServicoXFuncaoY,1440
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,3,13.906,APISYSTEMA:MetodoServicoXFuncaoY,720
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,3,0.693,APISYSTEMA:MetodoServicoXFuncaoY,720
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,3,0.719,APISYSTEMA:MetodoServicoXFuncaoY,720
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,11,2.377,APISYSTEMA:MetodoServicoXFuncaoY,2160
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,3,0.65,APISYSTEMA:MetodoServicoXFuncaoY,720
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,1,0.0,Operações do Serviço X de APISYSTEMA,360
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,8,0.293,APISYSTEMA:MetodoServicoXFuncaoY,1620
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,1,0.0,Operações do Serviço X de APISYSTEMA,360
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,7,1.043,APISYSTEMA:MetodoServicoXFuncaoY,1440
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,19,26.421,APISYSTEMA:MetodoServicoXFuncaoY,3600
+ServiceExampleAPISYSTEMAMetodoServicoXFuncaoYTestCase,API,test_api.test_apisystem_a.test_service.test_MetodoServicoXFuncaoY,1,0.0,Operações do Serviço X de APISYSTEMA,360

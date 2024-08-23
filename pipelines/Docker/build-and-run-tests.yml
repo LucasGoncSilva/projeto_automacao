@@ -1,0 +1,35 @@
+# Docker
+
+trigger:
+  - '*'
+
+pr:
+  - '*'
+
+resources:
+- repo: self
+
+variables:
+  tag: '$(Build.BuildId)'
+
+stages:
+- stage: Build
+  displayName: Build image
+  jobs:
+  - job: Build
+    displayName: Build
+    pool:
+      vmImage: windows-latest
+    steps:
+    - script: |
+      choco install docker-desktop -y
+    displayName: 'Install Docker Desktop'
+
+    - task: Docker@2
+      displayName: Build and run tests
+      inputs:
+        command: build
+        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+        tags: |
+          $(tag)
+        arguments: '--progress=plain'
