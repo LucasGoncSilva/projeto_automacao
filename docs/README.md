@@ -47,9 +47,9 @@ Através das implementações de métricas presentes na classe `BaseTestCase` no
 
 | Métrica         | Tipo                    | Descrição
 | :---            | :---                    | :---
-| `name`          | `str`                   | Nome da classe dentro do programa (ExemploTestCase)
-| `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, via Web ou API, podendo ser apenas um destes
-| `path`          | `str`                   | Caminho do dir raíz até o teste (`test.test_api.abc.ExemploTestCase`)
+| `name`          | `str`                   | Nome da classe dentro do programa<br>ExemploTestCase
+| `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, via Web ou API, apenas
+| `path`          | `str`                   | Caminho do dir raíz até o teste<br>`test.test_api.abc.ExemploTestCase`
 | `methods_count` | `int`                   | Quantidade de cenários dentro do caso de teste
 | `duration`      | `float`                 | Duração do tempo de execução da classe medido em segundos
 | `readable`      | `str`                   | Nome "human-readable" da classe, como estará no relatório final
