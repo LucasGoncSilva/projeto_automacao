@@ -12,6 +12,8 @@ A escolha do Python garante uma codificação eficiente e flexível, enquanto o 
 Isso permite a detecção precoce de falhas, aprimorando a experiência do usuário final e assegurando a estabilidade do sistema. Esse processo de teste meticuloso é essencial para identificar possíveis problemas e garantir que os padrões de funcionamento sejam mantidos, proporcionando assim um ambiente digital mais confiável e eficaz.
 <br><br>
 **OBS: a arquitetura aqui presente, bem como o relatório de exemplo são estruturas reais, mas que por motivos de sigilo comercial tiveram seus dados alterados, de modo que seja perfeitamente possível entender o que foi feito sem comprometer as informações reais validadas.**
+<br><br>
+O projeto real possui mais de 80 arquivos de testes divididos entre as modalidades "Web" e "API", com quase 1M de linhas escrita em Python e execução paralela para dar conta da estrutura robusta do projeto; aqui está apenas a estrutura mínima para fácil compreensão da arquitetura utilizada.
 
 <br>
 
@@ -45,15 +47,15 @@ Com a estrutura demonstrada acima, deve-se imaginar que a cada nível que a estr
 
 Através das implementações de métricas presentes na classe `BaseTestCase` nos métodos `setUpClass` e `tearDownClass` - ambos decorados com `@classmethod` - e própria execução dos testes registra as métricas definidas, sendo elas `name`, `type`, `path`, `methods_count`, `duration`, `readable` e `manual_exec`, conforme indicado abaixo:
 
-| Métrica         | Tipo                    | Descrição
-| :---            | :---                    | :---
-| `name`          | `str`                   | Nome da classe dentro do programa <br> `ExemploTestCase -> ExemploTestCase(...)`
-| `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, Web ou API <br> `"Web" \| "API"`
-| `path`          | `str`                   | Caminho do dir raíz até o teste <br> `test.test_api.abc.ExemploTestCase`
-| `methods_count` | `int`                   | Quantidade de cenários dentro do caso de teste
-| `duration`      | `float`                 | Duração do tempo de execução da classe <br> medido em segundos
-| `readable`      | `str`                   | Nome "human-readable" da classe, como <br> estará no relatório final
-| `manual_exec`   | `int`                   | Tempo de execução do exato mesmo caso com <br> mesmos cenários e condições, manualmente
+| Métrica         | Tipo                    | Descrição                                                                               |
+| :-------------- | :---------------------- | :-------------------------------------------------------------------------------------- |
+| `name`          | `str`                   | Nome da classe dentro do programa <br> `ExemploTestCase -> ExemploTestCase(...)`        |
+| `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, Web ou API <br> `"Web" \| "API"`                               |
+| `path`          | `str`                   | Caminho do dir raíz até o teste <br> `test.test_api.abc.ExemploTestCase`                |
+| `methods_count` | `int`                   | Quantidade de cenários dentro do caso de teste                                          |
+| `duration`      | `float`                 | Duração do tempo de execução da classe <br> medido em segundos                          |
+| `readable`      | `str`                   | Nome "human-readable" da classe, como <br> estará no relatório final                    |
+| `manual_exec`   | `int`                   | Tempo de execução do exato mesmo caso com <br> mesmos cenários e condições, manualmente |
 
 **Acesse o [Relatório de Execução - Testes Automatizados](https://lucasgoncsilva.github.io/projeto_automacao/report.html) para ver em detalhes o resultado obtido a partir das métricas observadas e quais tipos de informações são encontradas lá.**
 
