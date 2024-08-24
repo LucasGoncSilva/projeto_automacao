@@ -54,7 +54,7 @@ Através das implementações de métricas presentes na classe `BaseTestCase` no
 | `readable`      | `str`                   | Nome "human-readable" da classe, como estará no relatório final
 | `manual_exec`   | `int`                   | Tempo de execução do exato mesmo caso com mesmos cenários e condições, manualmente
 
-**Acesse o [Relatório de Execução - Testes Automatizados](#) para ver em detalhes o resultado obtido a partir das métricas observadas e quais tipos de informações são encontradas lá.**
+**Acesse o [Relatório de Execução - Testes Automatizados](https://lucasgoncsilva.github.io/projeto_automacao/report.html) para ver em detalhes o resultado obtido a partir das métricas observadas e quais tipos de informações são encontradas lá.**
 
 <br>
 
