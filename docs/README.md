@@ -38,9 +38,8 @@ Cada `__init__.py` inicializa uma nova classe-base para os sub-diretórios abaix
 
 O `__init__.py` na raíz do diretório de testes é o maior e, possivelmente, mais complexo, pois nele é implementada a maior parte das funcionalidades e lógicas, funções gerais e a classe-mor `BaseTestCase(unittest.TestCase)`, de onde **todos** os testes derivam, como demonstrado a seguir:
 
-| Web | API
-| ---: | :---
-| <img src="./pa_web.svg" width="50%" alt="Diagrama Estrutural de Classes do Projeto Automação" /> | <img src="./pa_api.svg" width="50%" alt="Diagrama Estrutural de Classes do Projeto Automação" />
+<img src="./pa_web.svg" alt="Diagrama Estrutural de Classes do Projeto Automação" />
+<img src="./pa_api.svg" alt="Diagrama Estrutural de Classes do Projeto Automação" />
 
 Com a estrutura demonstrada acima, deve-se imaginar que a cada nível que a estrutura se aprofunda, mais específicas são as classes, comportamento decorrente de suas implementações onde comportamentos comuns entre mais classes são definidos em classes mais ao centro, enquanto elementos mais específicos se definem em classes mais periféricas.
 
