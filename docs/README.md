@@ -51,7 +51,7 @@ Através das implementações de métricas presentes na classe `BaseTestCase` no
 | `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, Web ou API <br> `"Web" \| "API"`
 | `path`          | `str`                   | Caminho do dir raíz até o teste <br> `test.test_api.abc.ExemploTestCase`
 | `methods_count` | `int`                   | Quantidade de cenários dentro do caso de teste
-| `duration`      | `float`                 | Duração do tempo de execução da <br> classe medido em segundos
+| `duration`      | `float`                 | Duração do tempo de execução da classe <br> medido em segundos
 | `readable`      | `str`                   | Nome "human-readable" da classe, como <br> estará no relatório final
 | `manual_exec`   | `int`                   | Tempo de execução do exato mesmo caso com <br> mesmos cenários e condições, manualmente
 
