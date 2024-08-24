@@ -47,13 +47,13 @@ Através das implementações de métricas presentes na classe `BaseTestCase` no
 
 | Métrica         | Tipo                    | Descrição
 | :---            | :---                    | :---
-| `name`          | `str`                   | Nome da classe dentro do programa<br>ExemploTestCase
-| `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, via Web ou API, apenas
-| `path`          | `str`                   | Caminho do dir raíz até o teste<br>`test.test_api.abc.ExemploTestCase`
+| `name`          | `str`                   | Nome da classe dentro do programa <br> `ExemploTestCase -> ExemploTestCase(...)`
+| `type`          | `Literal["Web", "API"]` | Tipo de teste realizado, Web ou API <br> `"Web" \| "API"`
+| `path`          | `str`                   | Caminho do dir raíz até o teste <br> `test.test_api.abc.ExemploTestCase`
 | `methods_count` | `int`                   | Quantidade de cenários dentro do caso de teste
-| `duration`      | `float`                 | Duração do tempo de execução da classe medido em segundos
-| `readable`      | `str`                   | Nome "human-readable" da classe, como estará no relatório final
-| `manual_exec`   | `int`                   | Tempo de execução do exato mesmo caso com mesmos cenários e condições, manualmente
+| `duration`      | `float`                 | Duração do tempo de execução da <br> classe medido em segundos
+| `readable`      | `str`                   | Nome "human-readable" da classe, como <br> estará no relatório final
+| `manual_exec`   | `int`                   | Tempo de execução do exato mesmo caso com <br> mesmos cenários e condições, manualmente
 
 **Acesse o [Relatório de Execução - Testes Automatizados](https://lucasgoncsilva.github.io/projeto_automacao/report.html) para ver em detalhes o resultado obtido a partir das métricas observadas e quais tipos de informações são encontradas lá.**
 
